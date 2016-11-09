@@ -1,0 +1,118 @@
+body{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2E4060;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Abel', sans-serif;
+	margin:0;
+	color: #fff;
+    overflow: auto;
+}
+
+.container--text {
+    text-align: center;
+	width:660px;
+	margin:0 auto;
+    padding-top: 0px;
+    text-align: left;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+h1,h2, h3{
+	text-align: center;
+}
+
+h1 {
+	font-size:60px;
+    margin: 0;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+h2 {
+	letter-spacing: 0.23em;
+	font-size:17px;
+	opacity: 0.6;
+	text-transform: uppercase;
+	margin: -38px;
+    margin-bottom: 20px;
+    color: dimgray;
+}
+
+#containertext {
+	margin:0 auto;
+	width:500px;
+	margin-bottom:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+p {
+	font-size: 19px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	text-align: left;
+	margin: 30px auto;
+	font-weight: 400;
+}
+
+.text--intro {
+	margin-top: 30px;
+}
+
+.container{
+	width: 1200px;
+	margin: 180px auto;
+}
+
+.container--banner{
+    padding: center;
+    width: 660px;
+}
+
+.section--banner{
+    background: url(img/casque.png) no-repeat center;
+	height: 320px;
+	padding: 160px 0 177px;
+}
+
+.myship {
+	text-align: center;
+	font-size:18px;
+	margin:10px;
+	text-transform: uppercase;
+    margin-bottom: 60px;
+    padding-top: 30px;
+}
+
+.container--social ul {
+	padding: 0;
+	margin:0 auto;
+	display: block;
+	width: 308px;
+    list-style-type: none;
+    margin-top:-60px;
+    margin-bottom:10px;
+}
+
+.container--social ul li {
+	display:inline-block;
+	padding:25px;
+}
+
+.container--social ul li img{
+    margin: auto;
+	height:50px;
+	width:50px;
+}
